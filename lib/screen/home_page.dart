@@ -1,4 +1,5 @@
 import 'package:IPL/screen/points_table.dart';
+import 'package:IPL/screen/team_page.dart';
 import 'package:IPL/screen/winner.dart';
 import 'package:flutter/material.dart';
 import 'package:IPL/components/constant.dart';
@@ -85,7 +86,12 @@ class _HomePageState extends State<HomePage> {
                 'Teams',
                 style: menuButtonstyle,
               ),
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => TeamPage()),
+                );
+              },
             ),
             ListTile(
               trailing: Icon(Icons.arrow_right),

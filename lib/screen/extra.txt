@@ -44,5 +44,20 @@ class CustomList extends StatelessWidget {
             ),
 
 
-
+  Card(
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.teal,
+                  ),
+                  title: Text(
+                    '+91 8420906573',
+                    style: TextStyle(
+                      fontFamily: 'Ubuntu',
+                      fontSize: 20.0,
+                    ),
+                  ),
+                ),
+              ),
 

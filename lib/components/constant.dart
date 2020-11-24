@@ -31,3 +31,10 @@ const homepageTextstyle = TextStyle(
   fontSize: 15.0,
   color: Colors.white,
 );
+const teamNameStyle =
+    TextStyle(fontFamily: 'Merriweather', fontSize: 23.0, color: Colors.black);
+const playerNameStyle = TextStyle(
+  fontFamily: 'Lora',
+  fontSize: 20.0,
+  color: Colors.black,
+);
