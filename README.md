@@ -1,16 +1,12 @@
 # IPL
 
-A new Flutter project.
+This application is for Dream 11 Ipl 2020. 
 
-## Getting Started
+--> You can find full squad of 2020 Dream 11 Ipl.
+--> You can find all winners from 2008-2020.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+Thank you for Using the appliation,
+The apk file in the Apk File folder
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---------Sourashis Paul :)
