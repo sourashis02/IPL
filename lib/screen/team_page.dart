@@ -22,7 +22,7 @@ class TeamPage extends StatelessWidget {
           style: appBarTitleStyle,
         ),
       ),
-      body: Column(
+      body: ListView(
         children: [
           Padding(
             padding: EdgeInsets.only(top: 23),

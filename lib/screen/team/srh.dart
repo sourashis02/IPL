@@ -17,7 +17,7 @@ class Srh extends StatelessWidget {
       body: PageView(
         scrollDirection: Axis.vertical,
         children: [
-          Column(
+          ListView(
             children: [
               PlayerName(pname: 'Jonny Baristow (wk)'),
               PlayerName(pname: 'David Warner (C)'),
@@ -27,10 +27,9 @@ class Srh extends StatelessWidget {
               PlayerName(pname: 'T. Natrajan'),
               PlayerName(pname: 'Bhuvneswar Kumar'),
               PlayerName(pname: 'Abhishek Sharma'),
-            ],
-          ),
-          Column(
-            children: [
+              PlayerName(pname: 'Shahbaz Nadeem'),
+              PlayerName(pname: 'Prithvi Raj'),
+              PlayerName(pname: 'Sanjay Yadhav'),
               PlayerName(pname: 'Priyam Garg'),
               PlayerName(pname: 'Shreevats Goswami (wk)'),
               PlayerName(pname: 'Manish Pandey'),
@@ -39,10 +38,6 @@ class Srh extends StatelessWidget {
               PlayerName(pname: 'Vijay Shankar'),
               PlayerName(pname: 'Siddarth Kaul'),
               PlayerName(pname: 'Khaleel Ahmed'),
-            ],
-          ),
-          Column(
-            children: [
               PlayerName(pname: 'Sandeep Sharma'),
               PlayerName(pname: 'Fabian Allen'),
               PlayerName(pname: 'Wriddhiman Saha (wk)'),
@@ -51,13 +46,6 @@ class Srh extends StatelessWidget {
               PlayerName(pname: 'Bavanaka Sandeep'),
               PlayerName(pname: 'Mohammad Nabi'),
               PlayerName(pname: 'Basil Thampi'),
-            ],
-          ),
-          Column(
-            children: [
-              PlayerName(pname: 'Shahbaz Nadeem'),
-              PlayerName(pname: 'Prithvi Raj'),
-              PlayerName(pname: 'Sanjay Yadhav'),
             ],
           ),
         ],

@@ -17,7 +17,7 @@ class Dc extends StatelessWidget {
       body: PageView(
         scrollDirection: Axis.vertical,
         children: [
-          Column(
+          ListView(
             children: [
               PlayerName(pname: 'Rishabh Pant (wk)'),
               PlayerName(pname: 'Shreyas Iyer (C)'),
@@ -27,10 +27,6 @@ class Dc extends StatelessWidget {
               PlayerName(pname: 'Shikhar Dhawan'),
               PlayerName(pname: 'Marcus Stoinis'),
               PlayerName(pname: 'Prithvi Shaw'),
-            ],
-          ),
-          Column(
-            children: [
               PlayerName(pname: 'Kagiso Rabada'),
               PlayerName(pname: 'Alex Carey (wk)'),
               PlayerName(pname: 'Amit Mishra'),
@@ -39,10 +35,6 @@ class Dc extends StatelessWidget {
               PlayerName(pname: 'Sandip Lamichhane'),
               PlayerName(pname: 'Shimron Hetmyer'),
               PlayerName(pname: 'Axar Patel'),
-            ],
-          ),
-          Column(
-            children: [
               PlayerName(pname: 'Ishant Sharma'),
               PlayerName(pname: 'Lalit Yadav'),
               PlayerName(pname: 'Keemo Paul'),

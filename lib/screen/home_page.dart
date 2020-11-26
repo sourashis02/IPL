@@ -122,22 +122,21 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      body: Column(
+      body: ListView(
         children: [
-          Padding(
-            padding: EdgeInsets.only(top: 20),
-          ),
           CarouSEL(),
           SizedBox(
             height: 30,
           ),
-          Text(
-            'IPL',
-            style: homepageheadingTextStyle,
+          Center(
+            child: Text(
+              'IPL',
+              style: homepageheadingTextStyle,
+            ),
           ),
           SizedBox(
             height: 50,
-            width: 150,
+            width: 50,
             child: Divider(
               color: Colors.white,
             ),

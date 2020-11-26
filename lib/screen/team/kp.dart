@@ -17,7 +17,7 @@ class Kxip extends StatelessWidget {
       body: PageView(
         scrollDirection: Axis.vertical,
         children: [
-          Column(
+          ListView(
             children: [
               PlayerName(pname: 'K.L.Rahul (C)(wk)'),
               PlayerName(pname: 'Chris Gayle'),
@@ -27,22 +27,6 @@ class Kxip extends StatelessWidget {
               PlayerName(pname: 'Ravi Bishnoi'),
               PlayerName(pname: 'Sarfaraz Khan'),
               PlayerName(pname: 'Sheldon Cottrell'),
-            ],
-          ),
-          Column(
-            children: [
-              PlayerName(pname: 'James Neesham'),
-              PlayerName(pname: 'Prabhsimran Singh (wk)'),
-              PlayerName(pname: 'Mohammed Shami'),
-              PlayerName(pname: 'Chris Jordan'),
-              PlayerName(pname: 'Karun Nair'),
-              PlayerName(pname: 'Hardus Viljoen'),
-              PlayerName(pname: 'Arshdeep Singh'),
-              PlayerName(pname: 'Mujeeb Ur Rahman'),
-            ],
-          ),
-          Column(
-            children: [
               PlayerName(pname: 'Mandeep Singh'),
               PlayerName(pname: 'Krishnappa Gowtham'),
               PlayerName(pname: 'Murugan Ashwin'),
@@ -51,6 +35,14 @@ class Kxip extends StatelessWidget {
               PlayerName(pname: 'Harpreet Brar'),
               PlayerName(pname: 'Deepak Hooda'),
               PlayerName(pname: 'Jagadeesha Suchith'),
+              PlayerName(pname: 'James Neesham'),
+              PlayerName(pname: 'Prabhsimran Singh (wk)'),
+              PlayerName(pname: 'Mohammed Shami'),
+              PlayerName(pname: 'Chris Jordan'),
+              PlayerName(pname: 'Karun Nair'),
+              PlayerName(pname: 'Hardus Viljoen'),
+              PlayerName(pname: 'Arshdeep Singh'),
+              PlayerName(pname: 'Mujeeb Ur Rahman'),
             ],
           ),
         ],

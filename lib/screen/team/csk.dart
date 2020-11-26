@@ -17,7 +17,7 @@ class Csk extends StatelessWidget {
       body: PageView(
         scrollDirection: Axis.vertical,
         children: [
-          Column(
+          ListView(
             children: [
               PlayerName(pname: 'Mahendra Singh Dhoni (C)(wk)'),
               PlayerName(pname: 'Suresh Raina'),
@@ -27,10 +27,6 @@ class Csk extends StatelessWidget {
               PlayerName(pname: 'Faf Du Plesis'),
               PlayerName(pname: 'Ambati Raydu'),
               PlayerName(pname: 'Dwayne Bravo'),
-            ],
-          ),
-          Column(
-            children: [
               PlayerName(pname: 'Ravinder Jadeja'),
               PlayerName(pname: 'Harbhajan Singh'),
               PlayerName(pname: 'Murali Vijay'),
@@ -39,10 +35,6 @@ class Csk extends StatelessWidget {
               PlayerName(pname: 'Narayan Jagdeesan (wk)'),
               PlayerName(pname: 'Josh Hazlewood'),
               PlayerName(pname: 'Lungi Ngidi'),
-            ],
-          ),
-          Column(
-            children: [
               PlayerName(pname: 'KM Asif'),
               PlayerName(pname: 'Shardul Thakur'),
               PlayerName(pname: 'Ravisriniva Sai Kishore'),

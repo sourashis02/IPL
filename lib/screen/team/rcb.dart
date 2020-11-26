@@ -17,11 +17,8 @@ class Rcb extends StatelessWidget {
       body: PageView(
         scrollDirection: Axis.vertical,
         children: [
-          Column(
+          ListView(
             children: [
-              Padding(
-                padding: EdgeInsets.only(top: 40),
-              ),
               PlayerName(pname: 'Virat Kohli (C)'),
               PlayerName(pname: 'AB De Villiers (wk)'),
               PlayerName(pname: 'Devdutt Padikkal'),
@@ -29,24 +26,6 @@ class Rcb extends StatelessWidget {
               PlayerName(pname: 'Aaron Finch'),
               PlayerName(pname: 'Yuzvendra Chahal'),
               PlayerName(pname: 'Isuru Udana'),
-            ],
-          ),
-          Column(
-            children: [
-              Padding(
-                padding: EdgeInsets.only(top: 40),
-              ),
-              PlayerName(pname: 'Chris Morris'),
-              PlayerName(pname: 'Mohammed Siraj'),
-              PlayerName(pname: 'Adam Zampa'),
-              PlayerName(pname: 'Shivam Dube'),
-              PlayerName(pname: 'Dale Steyn'),
-              PlayerName(pname: 'Washington Sundar'),
-              PlayerName(pname: 'Shahbaz Ahmed'),
-            ],
-          ),
-          Column(
-            children: [
               PlayerName(pname: 'Moeen Ali'),
               PlayerName(pname: 'Umesh Yadav'),
               PlayerName(pname: 'Navdeep Saini'),
@@ -55,6 +34,13 @@ class Rcb extends StatelessWidget {
               PlayerName(pname: 'Kane Richardson'),
               PlayerName(pname: 'Parthiv Patel (wk)'),
               PlayerName(pname: 'Pawan Negi'),
+              PlayerName(pname: 'Chris Morris'),
+              PlayerName(pname: 'Mohammed Siraj'),
+              PlayerName(pname: 'Adam Zampa'),
+              PlayerName(pname: 'Shivam Dube'),
+              PlayerName(pname: 'Dale Steyn'),
+              PlayerName(pname: 'Washington Sundar'),
+              PlayerName(pname: 'Shahbaz Ahmed'),
             ],
           ),
         ],

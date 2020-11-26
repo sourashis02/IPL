@@ -17,7 +17,7 @@ class Kkr extends StatelessWidget {
       body: PageView(
         scrollDirection: Axis.vertical,
         children: [
-          Column(
+          ListView(
             children: [
               PlayerName(pname: 'Eoin Morgan (C)'),
               PlayerName(pname: 'Shubman Gill'),
@@ -27,10 +27,13 @@ class Kkr extends StatelessWidget {
               PlayerName(pname: 'Varun Chakravarthy'),
               PlayerName(pname: 'Sunil Narine'),
               PlayerName(pname: 'Kamlesh Nagarkoti'),
-            ],
-          ),
-          Column(
-            children: [
+              PlayerName(pname: 'Nikhil Naik'),
+              PlayerName(pname: 'Kuldeep Yadav'),
+              PlayerName(pname: 'Siddhesh Lad'),
+              PlayerName(pname: 'Chris Green'),
+              PlayerName(pname: 'M Siddharth'),
+              PlayerName(pname: 'Rinku Singh'),
+              PlayerName(pname: 'Prasidh Krishna'),
               PlayerName(pname: 'Tom Banton'),
               PlayerName(pname: 'Tim Seifert (wk)'),
               PlayerName(pname: 'Shivam Mavi'),
@@ -39,17 +42,6 @@ class Kkr extends StatelessWidget {
               PlayerName(pname: 'Lockie Ferguson'),
               PlayerName(pname: 'Sandeep Warrier'),
               PlayerName(pname: 'Nitish Rana'),
-            ],
-          ),
-          Column(
-            children: [
-              PlayerName(pname: 'Nikhil Naik'),
-              PlayerName(pname: 'Kuldeep Yadav'),
-              PlayerName(pname: 'Siddhesh Lad'),
-              PlayerName(pname: 'Chris Green'),
-              PlayerName(pname: 'M Siddharth'),
-              PlayerName(pname: 'Rinku Singh'),
-              PlayerName(pname: 'Prasidh Kkrishna'),
             ],
           ),
         ],
